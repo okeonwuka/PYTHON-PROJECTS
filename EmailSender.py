@@ -9,7 +9,7 @@ mail.ehlo()
 
 mail.starttls()
 
-mail.login('okeonwuka@gmail.com','4Evarelentle$$')
+mail.login('okeonwuka@gmail.com','password')
 
 mail.sendmail('okeonwuka@gmail.com','okeonwuka@yahoo.com', content)
 

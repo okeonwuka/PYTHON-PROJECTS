@@ -5,7 +5,7 @@ import smtplib
 session = smtplib.SMTP('smtp.gmail.com', 587)
 session.ehlo()
 session.starttls()
-session.login('4evarelentless@gmail.com','whysoserious?')
+session.login('4evarelentless@gmail.com','password')
 headers = "\r\n".join(["from: " + '4evarelentless@gmail.com',
                        "subject: " + "test",
                        "to: " + 'okeonwuka@gmail.com',

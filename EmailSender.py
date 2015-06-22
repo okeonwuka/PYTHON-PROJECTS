@@ -15,3 +15,6 @@ mail.sendmail('okeonwuka@gmail.com','okeonwuka@yahoo.com', content)
 
 mail.close()
 
+
+# Just ignore this line
+
